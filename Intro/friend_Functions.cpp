@@ -2,7 +2,7 @@
 using namespace std;
 //forward declaration
 class B;
-//otherwise line 15 won;t understand about B
+//otherwise line 15 won't understand about B
 class A{
     int data; //private// friend -> used to make it available for a function
 
