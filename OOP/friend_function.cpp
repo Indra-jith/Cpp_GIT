@@ -41,4 +41,12 @@ int main()
 
     sum = sumComplex(c1,c2);
     sum.print();
+    return 0;
 }
+
+//Properties of friend function
+/*Has access to private and protected members
+friend function cannot be called by object of complex class
+Cannot access members directly by their name, it would need 
+object_name.member_name to access any member
+Can be declared in private and public section of the class.*/
