@@ -2,7 +2,7 @@
 using namespace std;
 
 enum season{summer=10, winter=20, autumn=30, spring=40};
-//default      0         1          2          3
+//default ->    0         1          2          3
 
 // or .. 
 //enum season{
