@@ -12,7 +12,9 @@ class Square{
             side = s;
         }
     }
-    double getArea(){return side*side;}
+    double getArea(){return side*side;} //simpler clean code
+    //faster
+    //but Size>>
 };
 int main()
 {
