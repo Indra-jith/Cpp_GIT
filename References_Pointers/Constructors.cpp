@@ -1,6 +1,13 @@
 #include<iostream>
 using namespace std;
 
+//A constructor is a special type of member function that is called
+//automatically when an object is created 
+
+/*
+Constructors name is same as the class name
+*/
+
 class Student{
     public:
     string name;
