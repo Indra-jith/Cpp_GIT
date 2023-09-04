@@ -6,6 +6,12 @@ using namespace std;
 
 /*
 Constructors name is same as the class name
+
+
+Default constructor has not parameters, however input arguments
+are available for paramterized constructors and copy
+constructors. 
+
 */
 
 class Student{
@@ -21,9 +27,15 @@ class Student{
         cout<<"Default constructor invoked "<<endl;
     }
 
+    Student(string myGender)
+    {
+        gender = myGender;
+    }
+
     //Parameterized constructor
     Student(string myName,int myAge)
     {
+        cout<<"Parameter constructor invoked "<<endl;
         name = myName;
         age = myAge;
     }
@@ -34,9 +46,11 @@ int main()
     Student s1; // - > this calls a method which we can't see AKA CONSTRUCTOR!
     // cout<< s1.age; //gives garbage value if no constructors since it is not initialized.
     Student s2("Hello",18);
+    Student s3("M"); //-> Normal
+    // Student s3("M",33); // -> But this actually calls the method with 2 parameters
     cout<<s2.name<<endl; // prints hello..
-    cout<<s2.age; // 18
-
+    cout<<s2.age<<endl; // 18
+    cout<<s3.gender;
 
 
 }
