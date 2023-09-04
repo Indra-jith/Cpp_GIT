@@ -18,7 +18,14 @@ class Student{
     //Default constructor
     Student() //automatically called 
     {
-        cout<<"Automatically called "<<endl;
+        cout<<"Default constructor invoked "<<endl;
+    }
+
+    //Parameterized constructor
+    Student(string myName,int myAge)
+    {
+        name = myName;
+        age = myAge;
     }
 };
 
@@ -26,5 +33,10 @@ int main()
 {
     Student s1; // - > this calls a method which we can't see AKA CONSTRUCTOR!
     // cout<< s1.age; //gives garbage value if no constructors since it is not initialized.
+    Student s2("Hello",18);
+    cout<<s2.name<<endl; // prints hello..
+    cout<<s2.age; // 18
+
+
 
 }
