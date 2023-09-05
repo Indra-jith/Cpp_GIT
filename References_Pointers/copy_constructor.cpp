@@ -19,7 +19,7 @@ class Number{
         a = num;
     }
 
-    //COPY CONSTRUCTOR
+    //COPY CONSTRUCTOR - it has the power to copy another object's data
     Number(Number &obj)
     {
         cout<<"Copy constructor "<<endl;
