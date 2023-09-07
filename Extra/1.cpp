@@ -5,10 +5,14 @@ using namespace std;
 //'\0' indicates that string has ended
 void printString(char* str)
 {
-
+    for(int i = 0;str[i] != '\0'; i++)
+    {
+        cout<<str[i];
+    }
 }
 int main()
 {
     char* myString = "Hello world";
     printString(myString);
+    
 }
