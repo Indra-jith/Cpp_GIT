@@ -50,5 +50,6 @@ int main()
     {
         cout<<str1;
     }
+    remove("5_enemies.txt");
 }
 
