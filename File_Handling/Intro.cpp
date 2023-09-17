@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-    //INPUT STREAM
+    //OUTPUT STREAM
     // ofstream onFile; //created an object called onFile
 
     // // open ->
