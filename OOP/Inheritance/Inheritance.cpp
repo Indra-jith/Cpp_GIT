@@ -22,17 +22,38 @@ using namespace std;
 
 // };
 
-class Animal
+
+//NOTE: Single level inheritance 
+// 1 parent 1 child
+//or
+// 1 base class 1 derived class
+
+class Animal // can cantain all common things to all animals
 {
+    public:
+    void eat()
+    {
+        cout<<"Animal is eating"<<endl;
+    }
+    void sleep()
+    {
+        cout<<"Animal can sleep"<<endl;
+    }
 
 };
 
-class Derived : public Animal // - - - > Syntax
+class Dog : public Animal // - - - > Syntax
 {
-    
+    //this will contain things specific to dog
+    public:
+    void bark()
+    {
+        cout<<"Dog is barking"<<endl;
+    }
 };
 
 int main()
 {
-
+    Dog d1;
+    d1.eat();
 }
