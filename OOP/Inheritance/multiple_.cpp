@@ -39,5 +39,5 @@ public:
 
 int main()
 {
-    BabyDog b1; // has all authority
+    return 0;
 }
