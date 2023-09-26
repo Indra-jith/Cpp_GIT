@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// multi - level inheritance - when one child class inherits from two
+// multiple inheritance - when one child class inherits from two
 //or more classes
 
 class A
