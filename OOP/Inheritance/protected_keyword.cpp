@@ -36,7 +36,24 @@ public:
     {
         type = tp;
     }
+
+    void displayInfo()
+    {
+        cout << "I am a " << type << endl;
+    }
+
+    void bark()
+    {
+        cout << "I can woof woof" << endl;
+    }
 };
 int main()
 {
+    Dog d1;
+    d1.eat();
+    d1.sleep();
+
+    d1.bark();
+    d1.setType("mammal");
+    d1.displayInfo();
 }
