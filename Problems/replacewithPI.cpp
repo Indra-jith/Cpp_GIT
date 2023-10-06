@@ -13,10 +13,12 @@ void replacePi(string s)
     }
     else
     {
-        
+        cout<<s[0];
+        replacePi(s.substr(1));
     }
 }
 
 int main()
 {
+    replacePi("pipipippippippipi");
 }
