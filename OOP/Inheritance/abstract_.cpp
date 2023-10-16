@@ -2,7 +2,14 @@
 using namespace std;
 
 // abstract classes refers to a class containing atlease one pure virutal function,
-// which cannot be instantiated.
+// which cannot be instantiated. (but pointer and references of abstract class types
+// can be created)
+
+// we cannot create object of an abstract class.
+// Classes that inherits the abstract class must implement all pure
+// function 
+
+//-----------------------------------------------------------------------------------
 
 // class Shape
 // {
@@ -36,7 +43,7 @@ using namespace std;
 
 class Shape
 {
-    public:
+public:
     int shape_width;
     int shape_height;
 
@@ -57,7 +64,7 @@ class Rectangle : public Shape
 public:
     int perimeter()
     {
-        return 2*(shape_width+shape_height);
+        return 2 * (shape_width + shape_height);
     }
 };
 
@@ -78,5 +85,5 @@ int main()
     r1.height(5);
     s1.width(12);
 
-    cout<<r1.perimeter();
+    cout << r1.perimeter();
 }
