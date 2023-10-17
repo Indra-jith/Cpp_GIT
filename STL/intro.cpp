@@ -1,10 +1,10 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
-//STL - Standard Template Library
-//Type of STL containers
+// STL - Standard Template Library
+// Type of STL containers
 /*
-    1.Sequential container - it allows us to store elements that can be 
+    1.Sequential container - it allows us to store elements that can be
     accessed in sequential order eg- Array,List, Vector
 
     2.Associative containers - It allows us to store elements in sorted order,
@@ -29,10 +29,10 @@ int main()
     // {
     //     cout << nums << " "; //1,7,8,9,10 //avoids duplicates
     // }
-    
+
     // unordered_set<int> num = {4,2,9,7,10,10};
     // for (auto nums : num)
     // {
-    //     cout << nums << " "; 
+    //     cout << nums << " ";
     // }
 }
